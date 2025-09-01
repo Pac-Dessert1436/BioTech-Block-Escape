@@ -34,7 +34,7 @@ These designs are based on diagrams from the high school biology textbook. The o
   cd BioTech-Block-Escape  
   ```  
 2. Restore dependencies with `dotnet restore`.  
-3. Run the game: use `dotnet run` in VS Code, or click "Run" in Visual Studio 2022.  
+3. Run the game: Use `dotnet run` in VS Code, or click "Run" in Visual Studio 2022.  
 4. Controls: Click to select a block, then use arrow keys to move it.
 5. Hotkeys: Press 'P' to pause, 'R' to restart, or 'ESC' to exit.
 
@@ -48,4 +48,5 @@ Thankfully, I'm not alone in life's struggles. These months I've watched classma
 In the end, this ~300-line VB.NET game is more than a tribute to my lingering passion for bioinformatics. It's a reflection on the stress of navigating adulthood. Life goes on, and I have no choice but to keep courage for my exam preparation, though I still cherish these small coding moments as a form of self-care.
 
 ## License  
+
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.  
