@@ -1,8 +1,10 @@
-# BioTech Block Escape - A Unique Remake of the Classic Klotski Puzzle  
+# BioTech Block Escape - A Unique Remake of the Classic Klotski Puzzle
+
+> **Note**: The project is now updated to **.NET 10** without having to change any code. See the [Prerequisites](#prerequisites) section for more details.
 
 ![](screenshot.png)  
 
-## Description  
+## Description
 This project is a dedicated remake of the classic Klotski puzzle game, featuring graphics inspired by cellular structures, including the Nucleus, Endoplasmic Reticulum (ER), Golgi Apparatus, and Mitochondria. Built with [@DualBrain](https://github.com/DualBrain)'s `vbPixelGameEngine`, the goal is to navigate the Nucleus to the exit at the bottom of the board.
 
 The visuals draw from a cellular diagram in the biology textbook from my high school, all hand-crafted by me using Aseprite (a popular pixel art tool). As with traditional Klotski, one of the biggest challenges is maneuvering the large square beneath the horizontal bar before it could reach the exit. This mirrors the unexpected hurdles in biotech labs, not to mention the struggles of postgraduate life.
@@ -20,25 +22,25 @@ These designs are based on diagrams from the high school biology textbook. The o
 ![](reference.png)
 
 ## Prerequisites
-- [.NET SDK](https://dotnet.microsoft.com/download): version 8.0 or later  
-- IDE: Visual Studio 2022 or Visual Studio Code
+- [.NET SDK](https://dotnet.microsoft.com/download): version 10.0 or later  
+- IDE: Visual Studio 2026 or Visual Studio Code
 - [**vbPixelGameEngine**](https://github.com/DualBrain/vbPixelGameEngine)
-  - Clone the source code of the engine and build it with `dotnet build`.
+  - Clone the source code of the engine and build it with `dotnet build -c Release`.
   - To write a new VB.NET game, just reference the engine's DLL in your project.
-- Required NuGet Package: **System.Drawing.Common 9.0.0+**
+- Required NuGet Package: **System.Drawing.Common 10.0.0+**
 
-## How to Play  
+## How to Play
 1. Clone the repository and navigate to the project directory:  
   ```bash  
   git clone https://github.com/Pac-Dessert1436/BioTech-Block-Escape.git
   cd BioTech-Block-Escape  
   ```  
 2. Restore dependencies with `dotnet restore`.  
-3. Run the game: Use `dotnet run` in VS Code, or click "Run" in Visual Studio 2022.  
+3. Run the game: Use `dotnet run` in VS Code, or click "Run" in Visual Studio 2026.  
 4. Controls: Click to select a block, then use arrow keys to move it.
 5. Hotkeys: Press 'P' to pause, 'R' to restart, or 'ESC' to exit.
 
-## Personal Notes  
+## Personal Notes (August 2025)
 Creating this game has been a meaningful journey. Though I graduated college, I found myself drawn back to programming, even after vowing to focus on this year's Postgraduate Entrance Exam in my hometown. Failing last year's exam (when I aimed for "Biology and Medicine") made me doubt my ability to pursue bioinformatics, and I've gradually forgotten much of my biology knowledge.  
 
 I've since switched to studying Chinese Materia Medica, which, like General Biology, requires heavy memorization. I even built a private VB.NET WinForms app to quiz myself on herbal medicine properties (stored in a YAML file) - though I won't upload it to GitHub.
@@ -47,6 +49,6 @@ Thankfully, I'm not alone in life's struggles. These months I've watched classma
 
 In the end, this ~300-line VB.NET game is more than a tribute to my lingering passion for bioinformatics. It's a reflection on the stress of navigating adulthood. Life goes on, and I have no choice but to keep courage for my exam preparation, though I still cherish these small coding moments as a form of self-care.
 
-## License  
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.  
